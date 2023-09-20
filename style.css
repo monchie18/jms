@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh; /* 100% of the viewport height */
+    /* your existing styles */
+  }
+  
+  .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  
+  .fadeIn {
+      animation-name: fadeIn;
+  }
+  
+  .crown-wrapper {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 15px;
+  }
+  
+  .crown {
+      width: 40px;
+      height: 40px;
+      fill: gold;
+      animation: spinCrown 5s linear infinite;
+  }
+  
+  @keyframes spinCrown {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  }
+  /* ... Previous CSS ... */
+  
+  .star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: yellow;
+    border-radius: 50%;
+    opacity: 0;
+  }
+  
+  .star-burst {
+    animation: starBurst 1s ease-in-out forwards;
+  }
+  
+  @keyframes starBurst {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes popIn {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .pop-in {
+    animation: popIn 1s ease-in-out forwards;
+  }
+  
+  /* Add this to your existing styles.css */
+  .bg-image {
+    background-image: url('traasd.png');
+    background-size: cover;
+    top: -57%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  .overlay {
+    position: fixed; /* Fixed/sticky position */
+    top: 0; /* Place the overlay at the top */
+    left: 0; /* Place the overlay at the left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: -1; /* Place it behind the content */
+  }
+  
+  .card {
+    z-index: 1; /* Make sure the card is on top of the overlay */
+  }
+  
+  
+  /* Other styles remain unchanged */
+
+  
+  .Btn {
+    width: 140px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right,#77530a,#ffd277,#77530a,#77530a,#ffd277,#77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffd277;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+  
+  .Btn::before {
+    position: absolute;
+    content: "LOGIN";
+    color: #ffd277;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+    height: 90%;
+    border-radius: 8px;
+    transition-duration: 1s;
+    background-color: rgba(0, 0, 0, 0.842);
+    background-size: 200%;
+  }
+  
+  .Btn:hover {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:hover::before {
+    background-position: right;
+    transition-duration: 1s;
+  }
+  
+  .Btn:active {
+    transform: scale(0.95);
+  }
+  .gold-border-card {
+    border: 1px solid #FFD700;
+    border-radius: 15px; /* Optional: for rounded corners */
+  }
+  
