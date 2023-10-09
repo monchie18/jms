@@ -37,9 +37,10 @@
     </div>
     
     
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h1>User Selection Panel</h1>
+<!-- <header class="jumbotron subhead" id="overview"> -->
+<div class="container" style="text-align: center;  justify-content: center; align-items: center; ">
+<hr>    
+<h1>User Selection Panel</h1>
     <p class="lead">Judging Management System</p>
   </div>
 </header>

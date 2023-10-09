@@ -25,8 +25,7 @@
         </div>
       </div>
     </div>
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
+    <div class="container" style="text-align: center;  justify-content: center; align-items: center; ">
     <h1><?php echo $se_name; ?> Settings</h1>
     <p class="lead">Judging Management System</p>
   </div>

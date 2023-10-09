@@ -18,8 +18,8 @@
         </div>
       </div>
     </div>
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
+<!-- <header class="jumbotron subhead" id="overview"> -->
+<div class="container" style="text-align: center;  justify-content: center; align-items: center; ">
     <h1>Settings - Organizer</h1>
     <p class="lead">Judging Management System</p>
   </div>

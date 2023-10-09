@@ -69,10 +69,10 @@
     </div>
     
     
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h1>Data Reviews</h1>
-    <p class="lead">Judging Management System</p>
+<!-- <header class="jumbotron subhead" id="overview"> -->
+<div class="container" style="text-align: center;  justify-content: center; align-items: center; ">
+<hr>
+    <h3>Data Reviews</h3>
   </div>
 </header>
     <div class="container">

@@ -644,7 +644,7 @@ alert('Event details successfully set.');
 <?php  
  
  
-} ?>
+ ?>
   
 <?php include('footer.php'); ?>
 

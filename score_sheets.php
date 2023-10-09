@@ -125,8 +125,9 @@ div.panel {
 <!-- Subhead
 ================================================== -->
 <?php if($tabname==""){ ?>
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
+<!-- <header class="jumbotron subhead" id="overview"> -->
+<div class="container" style="text-align: center;  justify-content: center; align-items: center; ">
+<hr>
     <h1>Score Sheets</h1>
   <p class="lead">Judging Management System</p>
   </div>

@@ -17,7 +17,7 @@
         </div>
       </div>
     </div>
-<header class="jumbotron subhead" id="overview">
+<!-- <header class="jumbotron subhead" id="overview"> -->
   <div class="container">
     <h1>Account Registration</h1>
     <p class="lead">Judging Management System</p>

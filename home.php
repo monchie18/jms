@@ -79,11 +79,14 @@ include('session.php');
 
 <!-- Subhead
 ================================================== -->
-<header class="jumbotron subhead" id="overview">
-  <div class="container">
-    <h1>List of Events</h1>
+<!-- <header class="jumbotron subhead" id="overview"> -->
+  <hr>
+<div class="container" style="text-align: center;  justify-content: center; align-items: center; ">
+  <h1>List of Events</h1>
   <p class="lead">Judging Management System</p>
-  </div>
+  <hr>
+</div>
+
 </header>
 
 

@@ -18,7 +18,7 @@
         </div>
       </div>
     </div>
-<header class="jumbotron subhead" id="overview">
+<!-- <header class="jumbotron subhead" id="overview"> -->
   <div class="container">
     <h1>Settings - Tabulator</h1>
     <p class="lead">Judging Management System</p>
